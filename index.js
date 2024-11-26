@@ -3,8 +3,8 @@
 const http = require("http");
 const { CodeSandbox } = require("@codesandbox/sdk");
 
-// const TOKEN= "csb_v1_vX6JoKqKb68UIZPKWH2amcz323i1jndJJCV4It7u39M"
-const TOKEN = "csb_v1_SUMOJfhaRWdKZxFYBOrqYoT1KnNb1QqNcX67PtuJrTU";
+
+const TOKEN = "<YOUR-TOKEN>"
 
 const server = http.createServer(async (req, res) => {
   if (req.url === "/") {
